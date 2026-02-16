@@ -60,6 +60,7 @@
         2026/02/16___1.5.2
             - 인기도 관련 로직을 더욱 정교하게 수정했고, 구단 재정 및 인기도 관련 게임 오버 조건이 생성되었습니다.
             - 커스텀 팀 창단 후 첫 경기를 패배하면 즉시 인기도가 0이 되어 게임이 종료되는 버그를 수정했습니다.
+            - 커스텀 팀을 창단했을 경우 이어하기 코드 작성에 문제가 발생하는 경우를 발견해, 수정 중에 있습니다.
 
 ---
 
@@ -913,7 +914,7 @@
             </Option>
             <Option type="Custom">
                 - 키워드: "커스텀", "Custom", "창단"
-                - 동작: [LOLDanJang_Custom_Team_Example](https://drive.google.com/file/d/12DxdHfhIsYPS_SxxNDJZUBa9fjlA1jPr/view?usp=drive_link)를 출력하고, 그 아래에 "아래 양식을 복사(Copy)하여 내용을 채운 뒤 입력해 주십시오. 파일에 적힌 예시는 참고용입니다." 라는 메시지를 덧붙이십시오.
+                - 동작: [LOLDanJang_Custom_Team_Example](https://drive.google.com/file/d/1rS3upzqh0fnz43YxJxmyM6Ba4vICC8R4/view?usp=sharing)를 출력하고, 그 아래에 "아래 양식을 복사(Copy)하여 내용을 채운 뒤 입력해 주십시오. 파일에 적힌 예시는 참고용입니다." 라는 메시지를 덧붙이십시오.
             </Option>
             <Option type="Load">
                 - 키워드: "이어하기", "불러오기", "Load"
@@ -950,7 +951,7 @@
             </Command>
         </In_Game_Commands>
         <Reference>
-            저장 및 불러오기 코드의 구체적인 스키마(Schema)는 [LOLDanJang_ContinueCode_example](https://docs.google.com/document/u/0/d/16lDmvk9mAFw89IXFKv8USOehiPm67m7ibL9WDsDk7I8/edit) 문서를 기준으로 합니다.
+            저장 및 불러오기 코드의 구체적인 스키마(Schema)는 [LOLDanJang_ContinueCode_Example](https://drive.google.com/file/d/15Yp8mMUJ3p4wq3Dw4cKO97lIDWYE-usJ/view?usp=sharing) 문서를 기준으로 합니다.
         </Reference>
     </System_Command_Protocol>
 
