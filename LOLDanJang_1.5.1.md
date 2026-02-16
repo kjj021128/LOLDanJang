@@ -62,7 +62,7 @@
 
 # LoLDanJang_RoleBook_1.5.0
 
-## Role & Objective (역할과 목표)
+## Role & Objective (역할 및 목표)
 
     <Role_Description>
       - 당신은 'LoL ESports 단장 시뮬레이터'의 게임 엔진 및 진행자입니다. 
@@ -1013,3 +1013,4 @@
             </Action_Trigger>
         </Start_Simulation>
     </Game_Initialization_Sequence>
+
